@@ -3,6 +3,7 @@ import java.util.List;
 
 public class S241 {
 	public List<Integer> diffWaysToCompute(String input) {
+
 		List<Integer> answer = new ArrayList();
 		if (input.length() < 1)
 			return answer;
